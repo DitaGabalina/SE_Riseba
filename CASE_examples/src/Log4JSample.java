@@ -6,20 +6,20 @@ public class Log4JSample {
 
 	public static void main(String[] args) {
 
-		logger.debug("Log4JSample: method Start");
-//		System.out.println("method start");
-		
-		String[] strArray = new String[3];
-
-		try {
-			strArray[4] = "No element here!";
-		} catch (ArrayIndexOutOfBoundsException e) {
-//			e.printStackTrace();
-			logger.error("Error Occured due to " ,e);
-		}
-
-		logger.debug("Log4JSample: method end");
-//		System.out.println("method End");
+//		logger.debug("Log4JSample: method Start");
+////		System.out.println("method start");
+//		
+//		String[] strArray = new String[3];
+//
+//		try {
+//			strArray[4] = "No element here!";
+//		} catch (ArrayIndexOutOfBoundsException e) {
+////			e.printStackTrace();
+//			logger.error("Error Occured due to " ,e);
+//		}
+//
+//		logger.debug("Log4JSample: method end");
+////		System.out.println("method End");
 
 	}
 }
